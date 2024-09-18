@@ -1,9 +1,5 @@
-package com.revature;
+package com.project;
 
-import com.revature.pom.LoginPage;
-
-import com.revature.pom.PlanetariumPage;
-import com.revature.pom.RegPage;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.AfterClass;
@@ -12,6 +8,10 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.project.pom.LoginPage;
+import com.project.pom.PlanetariumPage;
+import com.project.pom.RegPage;
 
 import java.time.Duration;
 
